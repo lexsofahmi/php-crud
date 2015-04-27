@@ -1,19 +1,33 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">CRUD Project</a>
+<!-- NAVIGASI
+    ============================================================================== -->
+<section class="navigasi">
+    <nav class="navbar navbar-default" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--/.navbar-toggle-->
+                <a href="/" class="navbar-brand">CRUD</a>
+            </div>
+            <!--/.navbar-header-->
+
+            <nav class="collapse navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="fa fa-home" href="#"> Home</a>
+                    </li>
+
+                </ul>
+                <!--/.navbar-nav-->
+            </nav>
+            <!--/.navbar-collapse-->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="rekap.php">Rekap</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+        <!--/.container-->
+    </nav>
+    <!--/.navbar-fixed-top-->
+</section>
+<!--/.navigasi-->
