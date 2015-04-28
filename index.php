@@ -2,7 +2,7 @@
 <html lang="en">
 <head><?php
     include 'module/header.php';
-    //include 'module/alerts.php';
+    include 'module/alerts.php';
     include "config/connect.php";
     ?>
 </head>
